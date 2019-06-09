@@ -120,4 +120,52 @@ public class Simulatore {
 		}
 
 	}
+
+	public LocalTime getOraInizio() {
+		return oraInizio;
+	}
+
+	public void setOraInizio(LocalTime oraInizio) {
+		this.oraInizio = oraInizio;
+	}
+
+	public LocalTime getOraFine() {
+		return oraFine;
+	}
+
+	public void setOraFine(LocalTime oraFine) {
+		this.oraFine = oraFine;
+	}
+
+	public Duration getIntervalloArrivo() {
+		return intervalloArrivo;
+	}
+
+	public void setIntervalloArrivo(Duration intervalloArrivo) {
+		this.intervalloArrivo = intervalloArrivo;
+	}
+
+	public List<Duration> getDurateNoleggio() {
+		return durateNoleggio;
+	}
+
+	public void setDurateNoleggio(List<Duration> durateNoleggio) {
+		this.durateNoleggio = durateNoleggio;
+	}
+
+	public int getAutoTotali() {
+		return autoTotali;
+	}
+
+	public int getAutoDisponibili() {
+		return autoDisponibili;
+	}
+
+	public int getNumeroClienti() {
+		return numeroClienti;
+	}
+
+	public int getNumeroInsoddisfatti() {
+		return numeroInsoddisfatti;
+	}
 }

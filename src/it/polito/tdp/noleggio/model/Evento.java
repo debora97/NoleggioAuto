@@ -12,6 +12,7 @@ public class Evento implements Comparable<Evento> {
 	private LocalTime tempo ;
 	private TipoEvento tipo ;
 	
+	//perchè la coda deve essere ordinata per tempo
 	@Override
 	public int compareTo(Evento other) {
 		return this.tempo.compareTo(other.tempo);

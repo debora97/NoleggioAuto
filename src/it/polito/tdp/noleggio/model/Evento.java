@@ -18,4 +18,27 @@ public class Evento implements Comparable<Evento> {
 		return this.tempo.compareTo(other.tempo);
 	}
 
+	public Evento(LocalTime tempo, TipoEvento tipo) {
+		super();
+		this.tempo = tempo;
+		this.tipo = tipo;
+	}
+
+	public LocalTime getTempo() {
+		return tempo;
+	}
+
+	public void setTempo(LocalTime tempo) {
+		this.tempo = tempo;
+	}
+
+	public TipoEvento getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoEvento tipo) {
+		this.tipo = tipo;
+	}
+	
+
 }
